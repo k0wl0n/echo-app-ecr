@@ -1,9 +1,9 @@
   name: Push the Docker image to AWS ECR Repo
   on:
-  push:
-    tags:
-      - stg-v.*
-      - prod-v.*
+    push:
+      tags:
+        - stg-v.*
+        - prod-v.*
   jobs:
     Build:
       name: Build
