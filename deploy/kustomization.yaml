@@ -7,5 +7,5 @@ resources:
 namespace: production
 images:
 - name: kowlon/go-echo
-  newName: kowlon/go-echo
-  newTag: v3
+  newName: 490004610217.dkr.ecr.ap-southeast-1.amazonaws.com/echo-app
+  newTag: stg-v.0.0.4
