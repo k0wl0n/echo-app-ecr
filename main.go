@@ -12,7 +12,7 @@ func main() {
 	e.GET("/", func(c echo.Context) error {
 		name := c.QueryParam("name")
 		if name == "" {
-			name = "World"
+			name = "echo"
 		}
 		return c.String(http.StatusOK, "Hello, "+name+"! on v1")
 	})
