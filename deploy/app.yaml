@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: git@github.com:k0wl0n/echo-app-ecr.git
-    targetRevision: HEAD
+    targetRevision: main
     path: deploy
   destination:
     server: https://kubernetes.default.svc
